@@ -1,0 +1,29 @@
+// let str="123";
+// console.log(typeof str);
+// let num=Number(str);
+// console.log(typeof num);
+// console.log(num);
+// let i=3;
+// while(i) alert(i--);
+// let j=0;
+// for(;j<3;) alert(j++);
+// let sum=0;
+// for(;;){
+//     let num=+prompt('Enter the number');
+//     if(!num) break;
+//     sum+=num;
+// }
+// alert('sum: '+sum);
+// let bonuspoint=50;
+// console.log(bonuspoint)
+let count=0;
+function increment(){
+   count=count+1;
+   console.log(count);
+   let value=document.getElementById("counter");
+   value.innerHTML=count;
+}
+function save(){
+    let savedvalue=count;
+    console.log('savedvalue: '+savedvalue);
+}

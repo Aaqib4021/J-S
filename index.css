@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(144, 231, 157);
+}
+#counter{
+    margin-left: 130px;
+}
+#increment-btn{
+    border: none;
+    margin-left: 100px;
+    background-color:crimson;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    cursor:grabbing;
+    
+}
+#save-btn{
+    border: none;
+    margin-left: 100px;
+    background-color:rgb(38, 13, 180);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 90px;
+    font-weight: bold;
+    cursor:grabbing;
+}
