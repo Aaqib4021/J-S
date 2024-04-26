@@ -26,4 +26,7 @@ function increment(){
 function save(){
     let savedvalue=count;
     console.log('savedvalue: '+savedvalue);
+    let prevalue=document.getElementById("previos-score");
+    // console.log(prevalue)
+    prevalue.innerText=savedvalue;
 }
