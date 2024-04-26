@@ -17,16 +17,25 @@
 // let bonuspoint=50;
 // console.log(bonuspoint)
 let count=0;
+let svarr=new Array();
 function increment(){
-   count=count+1;
+   count+=1;
    console.log(count);
    let value=document.getElementById("counter");
    value.innerHTML=count;
 }
 function save(){
-    let savedvalue=count;
+    let savedvalue=count+" -";
+    svarr.push(savedvalue);
+    console.log('length '+svarr.length);
     console.log('savedvalue: '+savedvalue);
-    let prevalue=document.getElementById("previos-score");
-    // console.log(prevalue)
-    prevalue.innerText=savedvalue;
+    let prevalue=document.getElementById("previous-score");
+    // prevalue.innerText="Previous entries-->"
+    prevalue.innerText+=savedvalue;
+    // for(let i=0;i<Math.min(3,svarr.length);i++){
+    //     prevalue.innerText+=`${svarr[i]}`;
+    //     if(i<svarr.length-1){
+    //         prevalue.innerText+=","
+    //     }
+    // }
 }
