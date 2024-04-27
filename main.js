@@ -33,7 +33,7 @@ function save(){
     // prevalue.innerText="Previous entries-->"
     prevalue.innerText+=savedvalue;
     // for(let i=0;i<Math.min(3,svarr.length);i++){
-    //     prevalue.innerText+=`${svarr[i]}`;
+    //     prevalue.innerText+=`${svarr[i]}`;            
     //     if(i<svarr.length-1){
     //         prevalue.innerText+=","
     //     }
