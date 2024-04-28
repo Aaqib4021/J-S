@@ -1,3 +1,4 @@
+
 // let str="123";
 // console.log(typeof str);
 // let num=Number(str);
@@ -41,3 +42,11 @@ function save(){
     //     }
     // }
 }
+console.log(x===undefined);
+var x=3;
+(function () {
+    console.log(x);
+    var x = "local value";
+    console.log(x);
+  })();
+ 
